@@ -9,19 +9,37 @@
 /* Begin PBXBuildFile section */
 		FC1BCDDA278D2CEF00538ED7 /* BurrowDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDCA278D2CED00538ED7 /* BurrowDesignApp.swift */; };
 		FC1BCDDB278D2CEF00538ED7 /* BurrowDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDCA278D2CED00538ED7 /* BurrowDesignApp.swift */; };
-		FC1BCDDC278D2CEF00538ED7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDCB278D2CED00538ED7 /* ContentView.swift */; };
-		FC1BCDDD278D2CEF00538ED7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDCB278D2CED00538ED7 /* ContentView.swift */; };
+		FC1BCDDC278D2CEF00538ED7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDCB278D2CED00538ED7 /* HomeView.swift */; };
+		FC1BCDDD278D2CEF00538ED7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDCB278D2CED00538ED7 /* HomeView.swift */; };
 		FC1BCDDE278D2CEF00538ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1BCDCC278D2CEE00538ED7 /* Assets.xcassets */; };
 		FC1BCDDF278D2CEF00538ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC1BCDCC278D2CEE00538ED7 /* Assets.xcassets */; };
+		FC1BCDE9278D560D00538ED7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDE8278D560D00538ED7 /* TabBarView.swift */; };
+		FC1BCDEA278D560D00538ED7 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDE8278D560D00538ED7 /* TabBarView.swift */; };
+		FC1BCDED278D579900538ED7 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDEC278D579900538ED7 /* GlobalHelpers.swift */; };
+		FC1BCDEE278D579900538ED7 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDEC278D579900538ED7 /* GlobalHelpers.swift */; };
+		FC1BCDF0278F246B00538ED7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDEF278F246B00538ED7 /* WelcomeView.swift */; };
+		FC1BCDF1278F246B00538ED7 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDEF278F246B00538ED7 /* WelcomeView.swift */; };
+		FC1BCDF5278FC9AD00538ED7 /* ImRichView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDF4278FC9AD00538ED7 /* ImRichView.swift */; };
+		FC1BCDF6278FC9AD00538ED7 /* ImRichView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDF4278FC9AD00538ED7 /* ImRichView.swift */; };
+		FC1BCDF8278FCFDB00538ED7 /* ThingsILoveAboutYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDF7278FCFDB00538ED7 /* ThingsILoveAboutYouView.swift */; };
+		FC1BCDF9278FCFDB00538ED7 /* ThingsILoveAboutYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDF7278FCFDB00538ED7 /* ThingsILoveAboutYouView.swift */; };
+		FC1BCDFB278FD06500538ED7 /* FactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDFA278FD06500538ED7 /* FactsData.swift */; };
+		FC1BCDFC278FD06500538ED7 /* FactsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1BCDFA278FD06500538ED7 /* FactsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FC1BCDCA278D2CED00538ED7 /* BurrowDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurrowDesignApp.swift; sourceTree = "<group>"; };
-		FC1BCDCB278D2CED00538ED7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC1BCDCB278D2CED00538ED7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		FC1BCDCC278D2CEE00538ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC1BCDD1278D2CEE00538ED7 /* BurrowDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurrowDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1BCDD7278D2CEF00538ED7 /* BurrowDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurrowDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1BCDD9278D2CEF00538ED7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FC1BCDE8278D560D00538ED7 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FC1BCDEC278D579900538ED7 /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		FC1BCDEF278F246B00538ED7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		FC1BCDF4278FC9AD00538ED7 /* ImRichView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImRichView.swift; sourceTree = "<group>"; };
+		FC1BCDF7278FCFDB00538ED7 /* ThingsILoveAboutYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsILoveAboutYouView.swift; sourceTree = "<group>"; };
+		FC1BCDFA278FD06500538ED7 /* FactsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +72,13 @@
 		FC1BCDC9278D2CED00538ED7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FC1BCDCA278D2CED00538ED7 /* BurrowDesignApp.swift */,
-				FC1BCDCB278D2CED00538ED7 /* ContentView.swift */,
 				FC1BCDCC278D2CEE00538ED7 /* Assets.xcassets */,
+				FC1BCDCA278D2CED00538ED7 /* BurrowDesignApp.swift */,
+				FC1BCDCB278D2CED00538ED7 /* HomeView.swift */,
+				FC1BCDEB278D561500538ED7 /* Components */,
+				FC1BCDF2278F280600538ED7 /* Helpers */,
+				FC1BCDF3278F281400538ED7 /* Views */,
+				FC1BCDFD278FD06A00538ED7 /* Data */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -76,6 +98,40 @@
 				FC1BCDD9278D2CEF00538ED7 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		FC1BCDEB278D561500538ED7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BCDE8278D560D00538ED7 /* TabBarView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FC1BCDF2278F280600538ED7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BCDEC278D579900538ED7 /* GlobalHelpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		FC1BCDF3278F281400538ED7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BCDEF278F246B00538ED7 /* WelcomeView.swift */,
+				FC1BCDF4278FC9AD00538ED7 /* ImRichView.swift */,
+				FC1BCDF7278FCFDB00538ED7 /* ThingsILoveAboutYouView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC1BCDFD278FD06A00538ED7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FC1BCDFA278FD06500538ED7 /* FactsData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,7 +232,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1BCDDC278D2CEF00538ED7 /* ContentView.swift in Sources */,
+				FC1BCDF5278FC9AD00538ED7 /* ImRichView.swift in Sources */,
+				FC1BCDF0278F246B00538ED7 /* WelcomeView.swift in Sources */,
+				FC1BCDE9278D560D00538ED7 /* TabBarView.swift in Sources */,
+				FC1BCDDC278D2CEF00538ED7 /* HomeView.swift in Sources */,
+				FC1BCDED278D579900538ED7 /* GlobalHelpers.swift in Sources */,
+				FC1BCDFB278FD06500538ED7 /* FactsData.swift in Sources */,
+				FC1BCDF8278FCFDB00538ED7 /* ThingsILoveAboutYouView.swift in Sources */,
 				FC1BCDDA278D2CEF00538ED7 /* BurrowDesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -185,7 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC1BCDDD278D2CEF00538ED7 /* ContentView.swift in Sources */,
+				FC1BCDF6278FC9AD00538ED7 /* ImRichView.swift in Sources */,
+				FC1BCDF1278F246B00538ED7 /* WelcomeView.swift in Sources */,
+				FC1BCDEA278D560D00538ED7 /* TabBarView.swift in Sources */,
+				FC1BCDDD278D2CEF00538ED7 /* HomeView.swift in Sources */,
+				FC1BCDEE278D579900538ED7 /* GlobalHelpers.swift in Sources */,
+				FC1BCDFC278FD06500538ED7 /* FactsData.swift in Sources */,
+				FC1BCDF9278FCFDB00538ED7 /* ThingsILoveAboutYouView.swift in Sources */,
 				FC1BCDDB278D2CEF00538ED7 /* BurrowDesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
