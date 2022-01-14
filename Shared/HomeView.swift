@@ -17,7 +17,7 @@ struct HomeView: View {
                     .tag(0)
                 ImRichView()
                     .tag(1)
-                Text("I Love You App")
+                ThingsILoveAboutYouView(facts: myFacts, currentFact: myFacts.randomElement()!)
                     .tag(2)
                 Text("Weather App")
                     .tag(3)
