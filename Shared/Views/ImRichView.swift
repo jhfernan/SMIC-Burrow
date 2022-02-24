@@ -11,16 +11,16 @@ import SwiftUI
 struct ImRichView: View {
     var body: some View {
         ZStack {
-            K.colors.black
+            Color("BlackColor")
                 .edgesIgnoringSafeArea(.all)
             
-            VStack(spacing: 20) {
+            VStack(spacing: 30) {
                 Image("Gem")
                     .resizable()
-                    .frame(width: 100, height: 100, alignment: .center)
+                    .frame(width: 150, height: 150, alignment: .center)
                 
                 Text("I Am Rich")
-                    .font(.system(size: 30))
+                    .font(.system(size: 40))
                     .foregroundColor(K.colors.white)
                     
             }
