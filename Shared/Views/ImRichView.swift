@@ -15,12 +15,12 @@ struct ImRichView: View {
                 .edgesIgnoringSafeArea(.all)
             
             VStack(spacing: 20) {
-                Image(K.imgs.gem)
+                Image("Gem")
                     .resizable()
-                    .scaledToFit()
+                    .frame(width: 100, height: 100, alignment: .center)
                 
                 Text("I Am Rich")
-                    .font(.system(size: 45))
+                    .font(.system(size: 30))
                     .foregroundColor(K.colors.white)
                     
             }
